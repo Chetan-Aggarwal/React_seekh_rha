@@ -1,6 +1,5 @@
 
-import  MyContext  from "./Helper/Context";
-import "./globals.css";
+
 
 export const metadata = {
   title: "Advanced React",
@@ -10,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning ><MyContext>{children}</MyContext></body>
+      <body >Contact page mei aapka swagat hai {children}</body>
     </html>
   );
 }
